@@ -4,11 +4,11 @@ const headerBurger = document.querySelector('.header__burger');
 const headerMenu = document.querySelector('.header__menu');
 const body = document.querySelector('body');
 
-headerBurger.addEventListener('click', () => {
-    headerBurger.classList.toggle('active');
-    headerMenu.classList.toggle('active');
-    body.classList.toggle('lock');
-});
+// headerBurger.addEventListener('click', () => {
+//     headerBurger.classList.toggle('active');
+//     headerMenu.classList.toggle('active');
+//     body.classList.toggle('lock');
+// });
 
 const Header = () => {
     return (
@@ -17,7 +17,7 @@ const Header = () => {
                 <div class="header__container">
                     <div class="header__logo">
                         <div class="header__logo_container">
-                            <p class="header__logo_title">Games</p>
+                            <p class="header__logo_title">Header</p>
                         </div>
                     </div>
 

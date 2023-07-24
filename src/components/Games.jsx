@@ -1,7 +1,13 @@
 import React from 'react';
 
+import Matched from './Matched';
+
 const Games = () => {
-    return <div>Games</div>;
+    return (
+        <div>
+            <Matched />
+        </div>
+    );
 };
 
 export default Games;
