@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Matched from './Matched';
+import Matched from '../Matched/Matched';
 
 const Games = () => {
     return (
-        <div>
+        <div className="container">
             <Matched />
         </div>
     );
