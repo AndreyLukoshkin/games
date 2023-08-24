@@ -3,7 +3,7 @@ import React from 'react';
 import './styles.css';
 
 const Matched = () => {
-    return <div className="container">Matched</div>;
+    return <div className="matched">Matched</div>;
 };
 
 export default Matched;

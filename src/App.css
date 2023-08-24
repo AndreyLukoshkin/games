@@ -43,9 +43,10 @@ body,
     display: flex;
     flex-direction: column;
     min-height: 100%;
-    max-width: 1680px;
+    max-width: 1920px;
     margin: 0 auto;
     padding: 0 50px 0 50px;
+    background-color: hsl(210, 97%, 86%);
 }
 
 @media (max-width: 767px) {
