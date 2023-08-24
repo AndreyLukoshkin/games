@@ -1,13 +1,7 @@
 import React from 'react';
 
-import Matched from '../Matched/Matched';
-
 const Games = () => {
-    return (
-        <div className="container">
-            <Matched />
-        </div>
-    );
+    return <div className="container">Games</div>;
 };
 
 export default Games;
