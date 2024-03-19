@@ -17,7 +17,7 @@
     text-decoration: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
     .header__menu {
         position: fixed;
         top: 0;
@@ -25,7 +25,7 @@
         right: -200%;
         width: 100%;
         height: 100%;
-        background-color: rgb(111, 179, 179);
+        background-color: rgb(0, 0, 0);
         padding: 120px 0 0 0;
         transition: all 0.3s ease 0s;
     }
