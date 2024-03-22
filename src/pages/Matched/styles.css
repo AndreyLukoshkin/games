@@ -1,4 +1,4 @@
-.matched {
+.matched__container {
     display: flex;
     flex: 1 1 auto;
     justify-content: center;
@@ -10,31 +10,59 @@
     margin-top: 80px;
 }
 
-.matched__cards {
+.matched__container_scores {
+    height: 80px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.matched__container_timer_turns {
+    display: flex;
+    flex-direction: column;
+}
+
+.matched__container_turns {
+    color: white;
+    font-size: 15px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.matched__container_btn_restart {
+    width: 70px;
+    height: 30px;
+    font-size: 15px;
+    padding: 2px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.matched__container_cards {
+    margin-right: 100px;
     display: grid;
     grid-template: repeat(4, 1fr) / repeat(4, 1fr);
 }
 
-.matched__scores {
-    width: 20vh;
-    height: 20vh;
-    display: flex;
-    flex-direction: column;
-    background-color: rebeccapurple;
-}
-
 @media (max-width: 1000px) {
-    .matched {
+    .matched__container {
         margin-top: 50px;
     }
 }
 
 @media (orientation: portrait) {
-    .matched {
+    .matched__container_cards {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .matched__container {
         flex-direction: column;
     }
 
-    .matched__scores {
+    .matched__container_scores {
+        width: 200px;
+        height: 40px;
         flex-direction: row;
         order: 2;
     }
