@@ -38,10 +38,18 @@
     height: 100%;
 }
 
-@media (orientation: portrait) {
+@media (orientation: portrait) and (max-width: 1024px) {
     .matched__card {
-        width: 12vw;
-        height: 17vw;
+        width: 13vw;
+        height: 18vw;
+        margin: 1vh;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 767px) {
+    .matched__card {
+        width: 17vw;
+        height: 23vw;
         margin: 1vh;
     }
 }

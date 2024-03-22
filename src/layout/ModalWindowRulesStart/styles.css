@@ -1,4 +1,8 @@
-.modal__container {
+.close {
+    display: none;
+}
+
+.open.modal_window_rules_start__container {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -8,12 +12,11 @@
     z-index: 3;
 }
 
-.modal__container_window {
+.modal_window_rules_start__container_window {
     position: absolute;
     width: 500px;
     height: 500px;
-    background-image: url(./../../../public/images/water.jpg);
-    opacity: 0.9;
+    background-image: url(./../../../public/images/back.jpg);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -25,21 +28,15 @@
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-.modal__container_congrats {
-    font-size: 40px;
-    color: white;
-    text-align: center;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-}
-
-.modal__container_text_victory {
+.modal_window_rules_start__container_rules_text {
+    padding: 5px;
     font-size: 35px;
     color: white;
     text-align: center;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
-.modal__container_newgame_button {
+.modal_window_rules_start__container_newgame_button {
     font-size: 25px;
     padding: 12px;
     border-radius: 7px;

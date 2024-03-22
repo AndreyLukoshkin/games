@@ -28,8 +28,8 @@ const Timer = ({ isMatchedArray, time, setTime }) => {
     }, [isMatchedArray, setTime]);
 
     return (
-        <div>
-            <p>
+        <div className="timer__container">
+            <p className="timer__container_time">
                 Time: {time.hours < 10 ? '0' + time.hours : time.hours}:
                 {time.minutes < 10 ? '0' + time.minutes : time.minutes}:
                 {time.seconds < 10 ? '0' + time.seconds : time.seconds}

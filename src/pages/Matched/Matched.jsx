@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 import { cardsObjects } from '../../constants';
 import ModalWindow from '../../layout/ModalWindow/ModalWindow';
+import ModalWindowRulesStart from '../../layout/ModalWindowRulesStart/ModalWindowRulesStart';
 import { shuffleCards } from '../../utils';
 import Timer from '../../utils/Timer/Timer';
 import SingleCard from './SingleCard/SingleCard';
@@ -80,7 +81,13 @@ const Matched = () => {
     };
 
     return (
-        <div className="matched">
+        <div className="matched__container">
+            <ModalWindowRulesStart
+                time={time}
+                scores={turns}
+                start={startMatchedGame}
+            />
+
             {isMatchedArray && (
                 <ModalWindow
                     time={time}
@@ -88,19 +95,25 @@ const Matched = () => {
                     restart={startMatchedGame}
                 />
             )}
-            <div className="matched__scores">
-                <Timer
-                    time={time}
-                    setTime={setTime}
-                    isMatchedArray={isMatchedArray}
-                />
-                <div className="score">Turns {turns}</div>
-                {/* <div className="score">best time</div> */}
-                {/* <div className="score">best moves</div> */}
-                {/* <div className="score">a pack of cards</div> */}
-                <button onClick={startMatchedGame}>Restart</button>
+
+            <div className="matched__container_scores">
+                <div className="matched__container_timer_turns">
+                    <Timer
+                        time={time}
+                        setTime={setTime}
+                        isMatchedArray={isMatchedArray}
+                    />
+                    <p className="matched__container_turns">Turns {turns}</p>
+                </div>
+                <button
+                    className="matched__container_btn_restart"
+                    onClick={startMatchedGame}
+                >
+                    Restart
+                </button>
             </div>
-            <div className="matched__cards">
+
+            <div className="matched__container_cards">
                 {cards.map((card) => {
                     return (
                         <SingleCard
