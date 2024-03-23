@@ -17,14 +17,14 @@ const Navbar = ({ burgerClassActive }) => {
                         Games
                     </div>
                 </li>
-                <li>
+                {/* <li>
                     <div
                         onClick={() => navigate('/matched')}
                         className="header__link"
                     >
                         Matched
                     </div>
-                </li>
+                </li> */}
                 <li>
                     <div
                         onClick={() => navigate('/about')}
