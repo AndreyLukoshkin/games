@@ -4,7 +4,7 @@ import './styles.css';
 
 const Main = () => {
     return (
-        <div className="container">
+        <div className="main__container">
             <div>
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.

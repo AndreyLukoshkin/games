@@ -7,6 +7,7 @@ import Games from '../pages/Games/Games';
 import Main from '../pages/Main/Main';
 import Matched from '../pages/Matched/Matched';
 import NotFound from '../pages/NotFound/NotFound';
+import SeaBattle from '../pages/SeaBattle/SeaBattle';
 
 const AppRoutes = () => {
     return (
@@ -17,6 +18,7 @@ const AppRoutes = () => {
                     <Route path="/about" element={<About />} />
                     <Route path="/games" element={<Games />} />
                     <Route path="/matched" element={<Matched />} />
+                    <Route path="/seabattle" element={<SeaBattle />} />
                     <Route path="*" element={<NotFound />} />
                 </Route>
             </Routes>
