@@ -4,7 +4,7 @@ import './styles.css';
 
 const About = () => {
     return (
-        <div className="container">
+        <div className="about__container">
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
                 cum laborum culpa tenetur, consequatur nam esse harum

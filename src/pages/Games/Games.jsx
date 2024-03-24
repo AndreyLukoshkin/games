@@ -7,8 +7,8 @@ const Games = () => {
     const navigate = useNavigate();
 
     return (
-        <div className="container">
-            <div className="games__container">
+        <div className="games__container">
+            <div className="games__wrapper">
                 <div
                     onClick={() => navigate('/matched')}
                     className="games__container_matched"
@@ -16,7 +16,7 @@ const Games = () => {
                     Matched
                 </div>
                 <div
-                    onClick={() => navigate('/matched')}
+                    onClick={() => navigate('/seabattle')}
                     className="games__container_sea"
                 >
                     Sea Battle

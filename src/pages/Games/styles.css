@@ -1,6 +1,15 @@
 .games__container {
     width: 100%;
     height: 100%;
+    flex: 1 1 auto;
+    padding: 100px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.games__wrapper {
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -19,6 +28,7 @@
     color: white;
     text-align: center;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+    cursor: pointer;
 }
 
 .games__container_sea {
@@ -34,6 +44,7 @@
     color: white;
     text-align: center;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+    cursor: pointer;
 }
 
 .games__container_mines {
@@ -49,4 +60,5 @@
     color: white;
     text-align: center;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+    cursor: pointer;
 }
