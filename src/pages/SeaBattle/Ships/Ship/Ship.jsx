@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import './styles.css';
 
-const Ship = ({ id }) => {
+const Ship = ({ id, ship }) => {
     const [isDragging, setIsDragging] = useState(false);
 
     const handleDragStart = (e) => {
@@ -25,6 +25,8 @@ const Ship = ({ id }) => {
             onDragStart={handleDragStart}
             onDrag={handleDrag}
             onDragEnd={handleDragEnd}
+            className="seabattle__container_ship"
+
             // style={{
             //     width: '50px',
             //     height: '50px',
@@ -33,6 +35,19 @@ const Ship = ({ id }) => {
             // }}
         >
             {/* Ваша разметка корабля */}
+            <div
+                className={
+                    ship === 'four'
+                        ? 'seabattle__container_ship_four'
+                        : ship === 'three'
+                        ? 'seabattle__container_ship_three'
+                        : ship === 'two'
+                        ? 'seabattle__container_ship_two'
+                        : ship === 'one'
+                        ? 'seabattle__container_ship_one'
+                        : ''
+                }
+            ></div>
         </div>
     );
 };

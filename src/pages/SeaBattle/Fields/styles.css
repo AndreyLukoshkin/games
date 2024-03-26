@@ -1,0 +1,24 @@
+.seabattle__fields {
+    display: flex;
+    gap: 50px;
+}
+
+.seabattle__field_left {
+    display: grid;
+    grid-template: repeat(10, 1fr) / repeat(10, 1fr);
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+.seabattle__field_right {
+    display: grid;
+    grid-template: repeat(10, 1fr) / repeat(10, 1fr);
+    width: 400px;
+    height: 400px;
+    background-color: red;
+}
+
+.seabattle__field_cell {
+    border: 1px solid black;
+}
