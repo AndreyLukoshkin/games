@@ -8,36 +8,3 @@
     justify-content: center;
     align-items: center;
 }
-
-.seabattle__container_ships {
-    width: 200px;
-    height: 100px;
-    background-color: aliceblue;
-    margin-bottom: 50px;
-    display: flex;
-}
-
-.seabattle__wrapper {
-    display: flex;
-    gap: 50px;
-}
-
-.seabattle__wrapper_left_field {
-    display: grid;
-    grid-template: repeat(10, 1fr) / repeat(10, 1fr);
-    width: 400px;
-    height: 400px;
-    background-color: blue;
-}
-
-.seabattle__wrapper_right_field {
-    display: grid;
-    grid-template: repeat(10, 1fr) / repeat(10, 1fr);
-    width: 400px;
-    height: 400px;
-    background-color: red;
-}
-
-.seabattle__wrapper_cell {
-    border: 1px solid black;
-}
