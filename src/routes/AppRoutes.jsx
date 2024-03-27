@@ -7,7 +7,7 @@ import Games from '../pages/Games/Games';
 import Main from '../pages/Main/Main';
 import Matched from '../pages/Matched/Matched';
 import NotFound from '../pages/NotFound/NotFound';
-import SeaBattle from '../pages/SeaBattle/SeaBattle';
+import SeaBattle from '../pages/SeaBattleFoler/SeaBattle/SeaBattle';
 
 const AppRoutes = () => {
     return (

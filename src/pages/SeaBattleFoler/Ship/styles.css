@@ -1,23 +1,23 @@
 .seabattle__container_ship_four {
-    width: 40px;
-    height: 10px;
+    width: 160px;
+    height: 40px;
     background-color: red;
 }
 
 .seabattle__container_ship_three {
-    width: 30px;
-    height: 10px;
+    width: 120px;
+    height: 40px;
     background-color: blue;
 }
 
 .seabattle__container_ship_two {
-    width: 20px;
-    height: 10px;
+    width: 80px;
+    height: 40px;
     background-color: yellow;
 }
 
 .seabattle__container_ship_one {
-    width: 10px;
-    height: 10px;
+    width: 40px;
+    height: 40px;
     background-color: green;
 }

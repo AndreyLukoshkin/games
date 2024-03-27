@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Ship from './Ship/Ship';
+import Ship from '../Ship/Ship';
 import './styles.css';
 
 const Ships = () => {
