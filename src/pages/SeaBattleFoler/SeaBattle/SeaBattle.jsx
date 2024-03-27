@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Field from './Fields/Field';
-import Ships from './Ships/Ships';
+import Field from '../Fields/Field';
+import Ships from '../Ships/Ships';
 import './styles.css';
 
 const SeaBattle = () => {
