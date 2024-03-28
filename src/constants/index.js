@@ -80,3 +80,16 @@ export const cardsObjects = [
         isMatched: false,
     },
 ];
+
+export const shipsObjects = [
+    { id: 1, type: 'four-deck', size: 4 },
+    { id: 2, type: 'three-deck', size: 3 },
+    { id: 3, type: 'three-deck', size: 3 },
+    { id: 4, type: 'two-deck', size: 2 },
+    { id: 5, type: 'two-deck', size: 2 },
+    { id: 6, type: 'two-deck', size: 2 },
+    { id: 7, type: 'one-deck', size: 1 },
+    { id: 8, type: 'one-deck', size: 1 },
+    { id: 9, type: 'one-deck', size: 1 },
+    { id: 10, type: 'one-deck', size: 1 },
+];
