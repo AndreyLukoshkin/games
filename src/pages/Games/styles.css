@@ -62,3 +62,9 @@
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
     cursor: pointer;
 }
+
+@media (max-width: 1000px) {
+    .games__container {
+        padding: 70px 0 20px 0;
+    }
+}

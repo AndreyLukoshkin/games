@@ -3,9 +3,6 @@ import React from 'react';
 import './styles.css';
 
 const ModalWindow = ({ scores, restart, time }) => {
-    // document.addEventListener('click', (e) => {
-    //     if (!e.target.closest('.modal__container_window')) console.log('mimo');
-    // });
     return (
         <div className="modal__container">
             <div className="modal__container_window">

@@ -1,12 +1,16 @@
-.about__container {
+.seabattle__container {
     width: 100%;
     height: 100%;
     flex: 1 1 auto;
     padding: 100px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 1000px) {
-    .about__container {
+    .seabattle__container {
         padding: 70px 0 20px 0;
     }
 }
