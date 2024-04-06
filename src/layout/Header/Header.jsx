@@ -11,7 +11,7 @@ const Header = () => {
     const body = document.querySelector('body');
 
     const openBurger = () => {
-        setIsBurgerOpen((isBurgerOpen) => !isBurgerOpen);
+        setIsBurgerOpen(!isBurgerOpen);
         isBurgerOpen
             ? setBurgerClassActive('active')
             : setBurgerClassActive('');
@@ -28,7 +28,12 @@ const Header = () => {
                             openBurger={openBurger}
                             burgerClassActive={burgerClassActive}
                         />
-                        <Navbar burgerClassActive={burgerClassActive} />
+                        <Navbar
+                            setBurgerClassActive={setBurgerClassActive}
+                            setIsBurgerOpen={setIsBurgerOpen}
+                            isBurgerOpen={isBurgerOpen}
+                            burgerClassActive={burgerClassActive}
+                        />
                     </div>
                 </div>
             </header>

@@ -22,7 +22,7 @@ const Games = () => {
                     Sea Battle
                 </div>
                 <div
-                    onClick={() => navigate('/matched')}
+                    onClick={() => navigate('/mines')}
                     className="games__container_mines"
                 >
                     Mines
