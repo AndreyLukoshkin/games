@@ -9,8 +9,16 @@
     align-items: center;
 }
 
-.mines {
-    display: flex;
+.mines__container_field {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    display: grid;
+    grid-template: repeat(10, 1fr) / repeat(10, 1fr);
+}
+
+.mines__container_field_cell {
+    border: 1px solid black;
 }
 
 @media (max-width: 1000px) {
