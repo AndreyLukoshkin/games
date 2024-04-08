@@ -93,3 +93,18 @@ export const shipsObjects = [
     { id: 9, type: 'one-deck', size: 1 },
     { id: 10, type: 'one-deck', size: 1 },
 ];
+
+export const rulesMatchedGame = {
+    mainRules: 'The rules of the Matched game',
+    textRules: 'Here is the rules: just find the same pictures, good luck!',
+};
+
+export const rulesSeaBattleGame = {
+    mainRules: 'The rules of the Sea Battle game',
+    textRules: 'Here is the rules: destroy all enemy ships and have fun!',
+};
+
+export const rulesMinesGame = {
+    mainRules: 'The rules of the Mines game',
+    textRules: 'Here is the rules: avoid the mines, good luck!',
+};

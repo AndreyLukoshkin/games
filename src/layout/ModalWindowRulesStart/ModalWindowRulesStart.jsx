@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import './styles.css';
 
-const ModalWindowRulesStart = ({ start }) => {
+const ModalWindowRulesStart = ({ start, mainRules, textRules }) => {
     const [startGameCloseModal, setStartGameCloseModal] = useState(false);
 
     function closeModalWindow() {
@@ -20,10 +20,10 @@ const ModalWindowRulesStart = ({ start }) => {
         >
             <div className="modal_window_rules_start__container_window">
                 <h2 className="modal_window_rules_start__container_rules_text">
-                    The rules of the Matched game
+                    {mainRules}
                 </h2>
                 <p className="modal_window_rules_start__container_rules_text">
-                    Here is the rules: just find the same pictures, good luck!
+                    {textRules}
                 </p>
                 <button
                     className="modal_window_rules_start__container_newgame_button"

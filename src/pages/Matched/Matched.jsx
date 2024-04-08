@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import { cardsObjects } from '../../constants';
+import { cardsObjects, rulesMatchedGame } from '../../constants';
 import ModalWindow from '../../layout/ModalWindow/ModalWindow';
 import ModalWindowRulesStart from '../../layout/ModalWindowRulesStart/ModalWindowRulesStart';
 import { shuffleCards } from '../../utils';
@@ -83,6 +83,8 @@ const Matched = () => {
     return (
         <div className="matched__container">
             <ModalWindowRulesStart
+                mainRules={rulesMatchedGame.mainRules}
+                textRules={rulesMatchedGame.textRules}
                 time={time}
                 scores={turns}
                 start={startMatchedGame}
