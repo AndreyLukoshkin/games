@@ -1,4 +1,4 @@
-.mines__container {
+.mines__wrapper {
     width: 100%;
     height: 100%;
     flex: 1 1 auto;
@@ -7,6 +7,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.mines__container {
+}
+
+.mines__container_top {
+}
+
+.mines__container_top_score {
+}
+
+.mines__container_top_smile {
+}
+
+.mines__container_top_time {
 }
 
 .mines__container_field {
