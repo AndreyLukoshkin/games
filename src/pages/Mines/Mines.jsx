@@ -17,7 +17,7 @@ const Mines = () => {
             />
             <div className="mines__container">
                 <div className="mines__container_top">
-                    <div className="mines__container_top_score"></div>
+                    <div className="mines__container_top_score">start</div>
                     <div className="mines__container_top_smile"></div>
                     <div className="mines__container_top_time"></div>
                 </div>
